@@ -16,7 +16,6 @@
         url('Roboto/Roboto-SemiBold.woff') format('woff');
     font-display:auto;font-style:normal;font-weight:600;font-stretch:normal;
 }
-
 @font-face {
     font-family: 'Roboto';
     src: url('Roboto/Roboto-Bold.woff2') format('woff2'),
