@@ -43,3 +43,33 @@
     align-items: center;
     flex-wrap: wrap;
 }
+.hdr-menu-cntlr {
+    padding-right: 24px;
+    margin-right: 24px;
+    position: relative;
+}
+.hdr-menu-cntlr::after {
+    position: absolute;
+    content: '';
+    top: 0;
+    right: 0;
+    z-index: 3;
+    width: 2px;
+    height: 67px;
+    background-color: #EFEFEF;
+}
+nav.main-nav ul {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0 -12px;
+    justify-content: flex-end;
+}
+nav.main-nav ul li {
+    padding: 0 12px;
+    position: relative;
+}
+.hdr-top-menu nav.main-nav ul {
+    margin: 0 8px;
+    justify-content: flex-end;
+}
