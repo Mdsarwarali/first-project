@@ -1,0 +1,45 @@
+.topbar {
+    background-color: #8aa104;
+}
+.topbar-innr {
+    padding: 15px 0;
+}
+.topbar-innr p {    
+    margin-bottom: 0;
+    color: #fff;
+    font-weight: 500;
+    text-align: center;
+}
+.header {
+    padding: 20px;
+}
+.header-wrap {
+    background: #FDFDFD;
+    border: 1px solid #EFEFEF;
+    border-radius: 32px;
+    box-shadow: 0px 4px 24px 0px rgba(0, 0, 0, 0.02);
+    -ms-box-shadow: 0px 4px 24px 0px rgba(0, 0, 0, 0.02);
+    -webkit-box-shadow: 0px 4px 24px 0px rgba(0, 0, 0, 0.02);
+    -o-box-shadow: 0px 4px 24px 0px rgba(0, 0, 0, 0.02);
+    padding: 25px 3.4% 25px;
+}
+.header-innr {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.hdr-lft {
+    padding-right: 10px;
+}
+.logo a {
+    max-width: 240px;
+    display: inline-block;
+}
+.hdr-rgt {
+    margin-left: auto;
+}
+.hdr-rgt-innr {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
